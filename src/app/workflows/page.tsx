@@ -21,6 +21,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { StatusBadge } from '@/components/ui/StatusBadge'
 import { Header } from '@/components/layouts/Header'
 import { Sidebar } from '@/components/layouts/Sidebar'
+import { cn } from '@/lib/utils'
 
 export default function WorkflowsPage() {
   const [sidebarOpen, setSidebarOpen] = React.useState(false)

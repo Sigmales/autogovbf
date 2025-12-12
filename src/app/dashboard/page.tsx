@@ -17,7 +17,7 @@ import { StatusBadge } from '@/components/ui/StatusBadge'
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/Table'
 import { Header } from '@/components/layouts/Header'
 import { Sidebar } from '@/components/layouts/Sidebar'
-import { formatDate, formatNumber } from '@/lib/utils'
+import { formatDate, formatNumber, cn } from '@/lib/utils'
 
 export default function DashboardPage() {
   const [sidebarOpen, setSidebarOpen] = React.useState(false)
